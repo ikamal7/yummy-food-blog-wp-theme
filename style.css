@@ -1,0 +1,205 @@
+/*!
+Theme Name: Yummy Food blog
+Theme URI: https://wp.ikamal.me/yummy
+Author: Kamal Hosen
+Author URI: https://ikamal.me
+Description:
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: yummy_food
+Tags:
+*/
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+    background-color: #eee;
+    clip: auto !important;
+    clip-path: none;
+    color: #444;
+    display: block;
+    font-size: 1em;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */
+}
+.gallery-caption {
+    display: inherit;
+}
+.bypostauthor{
+    display: inherit;
+}
+ol.children {
+    margin-left: 100px;
+}
+.comment-wrapper .comment-content a.comment-edit-link {
+    border:  none;
+}
+.comment-wrapper .comment-content a.comment-reply-link {
+    color: #fff;
+    background-color: #fc6c3f;
+}
+ul#yummy-nav li ul {
+    position:  absolute;
+    height:  auto;
+    min-width: 153px;
+    top: 61px;
+    background:  #fff;
+    color: #000;
+    z-index: 99;
+    visibility:  hidden;
+    opacity: 0;
+}
+
+ul#yummy-nav li:hover ul {
+    visibility:  visible;
+    opacity: 1;
+}
+
+ul#yummy-nav li ul a {
+    color: #000;
+}
+ul#yummy-nav li ul a:hover {
+    color: #fc6c3f;
+}
+.highlight__text{
+    background: #fc6c3f;
+    color: #fff;
+}
+ul.page-numbers li {
+    display:  inline-block;
+    margin: 0 5px;
+}
+
+ul.page-numbers li a.prev, ul.page-numbers li a.next {
+    background: transparent;
+    color: #333;
+    padding: 3px 6px;
+    border-radius: 3px;
+    border: 1px solid #FC6C3F;
+}
+
+ul.page-numbers li a {
+    color:  #333;
+    border: 1px solid #ccc;
+    padding: 3px 6px;
+}
+
+ul.page-numbers li a:hover {
+    background:  #FC6C3F;
+    color:  #fff;
+    border-color: #FC6C3F;
+}
+
+ul.page-numbers li span.current {
+    background:  #FC6C3F;
+    color:  #fff;
+    padding:  3px 6px;
+    border: 1px solid #FC6C3F;
+}
+
+ul.page-numbers {
+    font-family: 'Quicksand', sans-serif;
+}
+.related-post-area.section_padding_50 {
+    overflow:  hidden;
+}
+.top_header_area .top_social_bar > a {
+    padding: 0;
+}
