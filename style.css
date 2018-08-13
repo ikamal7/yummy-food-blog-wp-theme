@@ -203,3 +203,6 @@ ul.page-numbers {
 .top_header_area .top_social_bar > a {
     padding: 0;
 }
+div#yummy-footer-nav li {
+    display: inline-block;
+}
